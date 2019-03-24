@@ -8,9 +8,12 @@ public class Main {
 //        System.out.println("Podaj liczbę");
 //        boolean a = program.isPrime(scanner.nextInt());
 //        System.out.println("Wynik to: " + a);
-        Test test = new Test();
-        test.test();
-        System.out.println("Koniec");
+//        Test test = new Test();
+//        test.test();
+//        System.out.println("Koniec");
+
+        TestEven testEven = new TestEven();
+        testEven.test();
 
     }
 }
